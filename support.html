@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support for Weld the Sky — FAQs, troubleshooting, and contact information.">
+    <title>Support — Weld the Sky</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #e6ecff;
+            background: #05060f;
+            line-height: 1.7;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background:
+                radial-gradient(ellipse at 20% 10%, rgba(80, 30, 180, 0.30), transparent 50%),
+                radial-gradient(ellipse at 80% 30%, rgba(20, 80, 200, 0.25), transparent 55%),
+                linear-gradient(180deg, #05060f 0%, #0a0b22 50%, #05060f 100%);
+            z-index: -1;
+        }
+        .wrap {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 64px 24px;
+        }
+        .back {
+            display: inline-block;
+            color: #9aa6d6;
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        .back:hover { color: #fff; }
+        h1 {
+            font-size: clamp(28px, 5vw, 40px);
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #b9c4ff 50%, #f0b8ff 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 8px;
+        }
+        .lead { color: #b9c1e0; font-size: 16px; margin-bottom: 32px; }
+        h2 {
+            font-size: 20px;
+            color: #fff;
+            margin: 28px 0 12px;
+        }
+        p, li { color: #b9c1e0; font-size: 15px; }
+        ul, ol { padding-left: 20px; margin: 8px 0 12px; }
+        li { margin-bottom: 6px; }
+        a { color: #9ab1ff; }
+        a:hover { color: #fff; }
+        .faq {
+            background: rgba(20, 24, 56, 0.45);
+            border: 1px solid rgba(154,166,214,0.15);
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin-bottom: 14px;
+        }
+        .faq h3 {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+        .contact-box {
+            margin-top: 32px;
+            padding: 24px;
+            background: linear-gradient(135deg, rgba(91,107,255,0.15), rgba(185,75,255,0.15));
+            border: 1px solid rgba(154,166,214,0.20);
+            border-radius: 16px;
+            text-align: center;
+        }
+        .contact-box .email {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 12px 22px;
+            background: linear-gradient(135deg, #5b6bff 0%, #b94bff 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        footer {
+            margin-top: 48px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(154,166,214,0.12);
+            text-align: center;
+            font-size: 13px;
+            color: #7d87ad;
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <a class="back" href="index.html">← Back to Home</a>
+        <h1>Support</h1>
+        <p class="lead">Need help with Weld the Sky? We're here to help you forge a better sky.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <h3>How do I create a new constellation?</h3>
+            <p>Tap an empty area of the sky to spawn a star, then drag from one star to another to weld a line between them. Any connected group of stars becomes your constellation.</p>
+        </div>
+
+        <div class="faq">
+            <h3>Where is my data stored?</h3>
+            <p>By default, your constellations and progress are saved on your device. If you sign in or enable cloud backup, your data will also sync to our secure servers so you can access it across devices.</p>
+        </div>
+
+        <div class="faq">
+            <h3>I lost my constellations after reinstalling the app.</h3>
+            <p>If you were not signed in to a cloud account, local data may have been cleared with the app. Reinstall and sign in to your account to enable automatic cloud backup going forward.</p>
+        </div>
+
+        <div class="faq">
+            <h3>The app is running slowly or crashing.</h3>
+            <p>Try the following:</p>
+            <ul>
+                <li>Make sure you're running the latest version of Weld the Sky;</li>
+                <li>Restart the app and your device;</li>
+                <li>Free up storage space if your device is nearly full;</li>
+                <li>If the issue persists, contact us with your device model and OS version.</li>
+            </ul>
+        </div>
+
+        <div class="faq">
+            <h3>How do I delete my account or data?</h3>
+            <p>You can request account and data deletion at any time by emailing our support address below. We will process your request within 30 days.</p>
+        </div>
+
+        <div class="faq">
+            <h3>How do I report a bug or request a feature?</h3>
+            <p>We love hearing from you! Send bug reports, suggestions, or feedback to our support email. Please include your device model, OS version, and a clear description.</p>
+        </div>
+
+        <div class="contact-box">
+            <h2 style="margin-top: 0;">Still need help?</h2>
+            <p>Reach out to our support team and we'll get back to you as soon as possible.</p>
+            <a class="email" href="mailto:becipora79@gmail.com">Contact Support</a>
+            <p style="margin-top: 14px; font-size: 14px; color: #9aa6d6;">becipora79@gmail.com</p>
+        </div>
+
+        <footer>
+            <p>© 2026 Weld the Sky. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="index.html">Home</a>·
+                <a href="privacy.html">Privacy Policy</a>·
+                <a href="terms.html">Terms of Use</a>
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
